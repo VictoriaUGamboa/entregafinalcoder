@@ -1,0 +1,14 @@
+/*mixin*/
+
+@mixin tituloh2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+@mixin letrafooter {
+    background-color: #ff9f6f;
+    height: 40vh;
+    text-align: center;
+    padding-top: 15vh;
+}

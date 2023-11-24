@@ -1,0 +1,38 @@
+/*header*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 100px;
+}
+
+.navHeader li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.enlacesNav {
+    text-decoration: none;
+    color: $nude;
+    font-size: 1.5rem;
+}
+
+label {
+    cursor: pointer;
+    display: none;
+}
+
+.logoSideBar {
+    width: 200px;
+    height: 50px;
+}
+
+/*imágenes*/
+
+.enlacesIm {
+    text-decoration: none;
+    color: $negro;
+    font-size: 1.5rem;
+}

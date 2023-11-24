@@ -1,0 +1,37 @@
+/*footer*/
+
+footer {
+    @include letrafooter;
+}
+
+.navFt {
+    border-bottom: $blanco solid 1px;
+    padding-bottom: 20px;
+
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+}
+
+ul li a {
+    color: $blanco;
+    text-decoration: none;
+    padding: 20px;
+}
+
+h4 {
+    color: $blanco;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.derechos {
+    color: $blanco;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: 'Marcellus', serif;
+    text-transform: none;
+}

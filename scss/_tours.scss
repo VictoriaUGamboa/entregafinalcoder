@@ -1,0 +1,40 @@
+/* tours, para hacer la reserva*/
+
+.fa-brands {
+    margin: 40px 20px 60px 20px;
+}
+
+.brands {
+    text-align: center;
+}
+
+.imput {
+    background-color: $verde;
+    opacity: 0.6;
+    padding: 20px 50px;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+}
+
+.toursForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.btnSearchPs {
+    background-color: $negro;
+    color: $nude;
+    font-size: 1rem;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    top: 35vh;
+    left: 5vw;
+}
