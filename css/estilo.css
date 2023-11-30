@@ -1,583 +1,632 @@
 @charset "UTF-8";
+
 /*colores*/
 /*mixin*/
 /*lo principal*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Marcellus", serif;
+    font-family: "Marcellus", serif;
 }
 
 /*main*/
 #main {
-  padding: 20%;
-  background-image: url(../img/bg/bgt.jpg);
-  background-position: center;
-  background-size: cover;
+    padding: 20%;
+    background-image: url(../img/bg/bgt.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 h2 {
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 p {
-  margin-bottom: 35px;
-  text-align: center;
-  font-size: 1.5rem;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .gridFotos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 .foto {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .link {
-  border: #000 solid 1.1px;
-  margin-bottom: 40px;
-  border-radius: 40px;
-  padding: 22px;
-  width: 25vw;
-  text-align: center;
-  position: relative;
-  left: 35%;
+    border: #000 solid 1.1px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    padding: 22px;
+    width: 25vw;
+    text-align: center;
+    position: relative;
+    left: 35%;
 }
 
 .enlace {
-  color: #000;
-  font-size: 1.5rem;
-  text-decoration: none;
-  text-align: center;
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
 }
 
 .contenedorLugares {
-  margin-top: 20%;
+    margin-top: 20%;
 }
 
 /* destinos */
 #mainDes,
 #mainLug {
-  padding: 10%;
-  background-image: url(../img/bg/bgt.jpg);
-  background-position: center;
-  background-size: cover;
+    padding: 10%;
+    background-image: url(../img/bg/bgt.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 /* lugares */
 .gridCard {
-  display: grid;
-  grid-template-columns: repeat(4, 3fr);
-  text-align: center;
-  margin-top: 90px;
-  gap: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    text-align: center;
+    margin-top: 90px;
+    gap: 35px;
 }
 
 .card {
-  width: 100%;
-  background-color: #faf7ef;
-  border-radius: 18px;
-  padding: 22px 15px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    width: 100%;
+    background-color: #faf7ef;
+    border-radius: 18px;
+    padding: 22px 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .fotoT {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 h3 {
-  padding: 10px;
-  font-size: 1.3rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .parrafoCard {
-  padding: 20px;
-  font-size: 1.3rem;
+    padding: 20px;
+    font-size: 1.3rem;
 }
 
 .btnCard {
-  color: #000;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  background-color: #96aa9a;
-  padding: 10px 20px;
-  border-radius: 15px;
+    color: #000;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    background-color: #96aa9a;
+    padding: 10px 20px;
+    border-radius: 15px;
 }
 
 /* imagenes */
 .Imagenes {
-  background-image: url(../img/bg/bg.jpg);
-  background-position: center;
-  background-size: cover;
+    background-image: url(../img/bg/bg.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .gridImagenes {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  grid-auto-rows: 500px;
-  margin-top: 5%;
-  padding: 0% 10% 10% 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: 500px;
+    margin-top: 5%;
+    padding: 0% 10% 10% 10%;
 }
 
 .tituloImagenes {
-  color: #000;
-  font-weight: 700;
-  margin-top: 5%;
+    color: #000;
+    font-weight: 700;
+    margin-top: 5%;
 }
 
 .galeriaIm {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
-.imItem:nth-child(1), .imItem:nth-child(3) {
-  grid-row-start: span 2;
+.imItem:nth-child(1),
+.imItem:nth-child(3) {
+    grid-row-start: span 2;
 }
-.imItem:nth-child(5), .imItem:nth-child(6) {
-  grid-column-start: span 3;
+
+.imItem:nth-child(5),
+.imItem:nth-child(6) {
+    grid-column-start: span 3;
 }
 
 /* tours */
 .gridCardPs {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0 10%;
-  margin-top: 5%;
-  margin-bottom: 15%;
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    gap: 20px;
 }
 
 .precio {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 /*header*/
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px;
-  height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 100px;
 }
 
 .navHeader li {
-  list-style-type: none;
-  display: inline-block;
+    list-style-type: none;
+    display: inline-block;
 }
 
 .enlacesNav {
-  text-decoration: none;
-  color: #faf7ef;
-  font-size: 1.5rem;
+    text-decoration: none;
+    color: #faf7ef;
+    font-size: 1.5rem;
 }
 
 label {
-  cursor: pointer;
-  display: none;
+    cursor: pointer;
+    display: none;
 }
 
 .logoSideBar {
-  width: 200px;
-  height: 50px;
+    width: 200px;
+    height: 50px;
 }
 
 /*imágenes*/
 .enlacesIm {
-  text-decoration: none;
-  color: #000;
-  font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
 }
 
 /*banner*/
 .contenedorBanner {
-  background-image: url(../img/bg/bannerHome.jpg);
-  background-position: center;
-  background-size: auto;
-  height: 100vh;
-  background-attachment: fixed;
+    background-image: url(../img/bg/bannerHome.jpg);
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 .tituloInicio {
-  position: relative;
-  top: 30%;
-  text-align: center;
-  color: #faf7ef;
-  font-weight: 500;
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: #faf7ef;
+    font-weight: 500;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
 }
 
 .bold {
-  font-size: 2.2rem;
-  color: #faf7ef;
+    font-size: 2.2rem;
+    color: #faf7ef;
 }
 
 .arrowMain {
-  border: #faf7ef solid 2px;
-  border-radius: 50px;
-  padding: 20px;
-  position: relative;
-  top: 50%;
-  left: 48%;
+    border: #faf7ef solid 2px;
+    border-radius: 50px;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    left: 48%;
 }
 
 /*lugares*/
 .contenedorBannerLug {
-  background-image: url(../img/bg/bannerLug.jpg);
-  background-position: center;
-  background-size: auto;
-  height: 100vh;
-  background-attachment: fixed;
+    background-image: url(../img/bg/bannerLug.jpg);
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 .tituloB {
-  font-size: 2.1rem;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  padding-top: 35vh;
-  text-align: center;
-  padding-bottom: 3vh;
-  font-weight: 700;
-  color: #faf7ef;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    padding-top: 35vh;
+    text-align: center;
+    padding-bottom: 3vh;
+    font-weight: 700;
+    color: #faf7ef;
 }
 
 .parrafoB {
-  color: #faf7ef;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+    color: #faf7ef;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
 }
 
 .buscadorB {
-  text-align: center;
-  margin-top: 50px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .input {
-  background-color: #faf7ef;
-  opacity: 0.6;
-  padding: 20px 50px;
-  width: 30%;
-  border-radius: 20px;
-  border: none;
+    background-color: #faf7ef;
+    opacity: 0.6;
+    padding: 20px 50px;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
 }
 
 .btnSearch {
-  background-color: #000;
-  color: #faf7ef;
-  font-size: 1rem;
-  padding: 20px 40px;
-  border-radius: 20px;
-  border: none;
-  text-decoration: none;
+    background-color: #000;
+    color: #faf7ef;
+    font-size: 1rem;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
 }
 
 /*destinos*/
 .contenedorBannerDes {
-  background-image: url(../img/bg/bannerDes.jpg);
-  background-position: center;
-  background-size: auto;
-  height: 100vh;
-  background-attachment: fixed;
+    background-image: url(../img/bg/bannerDes.jpg);
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 /*imágenes*/
 .tituloImagenes {
-  color: #000;
-  text-align: center;
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+    color: #000;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
 }
 
 /*tours*/
 .tituloT {
-  color: #96aa9a;
-  width: 50vw;
-  text-align: left;
-  position: relative;
-  top: 25vh;
-  left: 5vw;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
+    color: #96aa9a;
+    width: 50vw;
+    text-align: left;
+    position: relative;
+    top: 25vh;
+    left: 5vw;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
 }
 
 .banner {
-  margin-bottom: 40%;
+    margin-bottom: 40%;
 }
 
 /*footer*/
 footer {
-  background-color: #ff9f6f;
-  height: 40vh;
-  text-align: center;
-  padding-top: 15vh;
+    background-color: #ff9f6f;
+    height: 40vh;
+    text-align: center;
+    padding-top: 15vh;
 }
 
 .navFt {
-  border-bottom: #fff solid 1px;
-  padding-bottom: 20px;
+    border-bottom: #fff solid 1px;
+    padding-bottom: 20px;
 }
+
 .navFt li {
-  list-style: none;
-  display: inline-block;
+    list-style: none;
+    display: inline-block;
 }
 
 ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
 }
 
 h4 {
-  color: #fff;
-  margin-top: 40px;
-  font-weight: 300;
-  font-size: 1rem;
+    color: #fff;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 1rem;
 }
 
 .derechos {
-  color: #fff;
-  margin-top: 40px;
-  font-weight: 300;
-  font-size: 1rem;
-  font-family: "Marcellus", serif;
-  text-transform: none;
+    color: #fff;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: "Marcellus", serif;
+    text-transform: none;
 }
 
 /* tours, para hacer la reserva*/
 .fa-brands {
-  margin: 40px 20px 60px 20px;
+    margin: 40px 20px 60px 20px;
 }
 
 .brands {
-  text-align: center;
+    text-align: center;
 }
 
 .imput {
-  background-color: #c7D4ca;
-  opacity: 0.6;
-  padding: 20px 50px;
-  width: 30%;
-  border-radius: 20px;
-  border: none;
+    background-color: #c7D4ca;
+    opacity: 0.6;
+    padding: 20px 50px;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
 }
 
 .toursForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  margin-top: 40px;
-  margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .btnSearchPs {
-  background-color: #000;
-  color: #faf7ef;
-  font-size: 1rem;
-  padding: 20px 40px;
-  border-radius: 20px;
-  border: none;
-  text-decoration: none;
-  position: relative;
-  top: 35vh;
-  left: 5vw;
+    background-color: #000;
+    color: #faf7ef;
+    font-size: 1rem;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    top: 35vh;
+    left: 5vw;
 }
 
 /* pseudoclases */
 .enlacesNav:hover {
-  color: #ff9f6f;
+    color: #ff9f6f;
 }
 
 .link:hover {
-  color: #96aa9a;
-  filter: invert(25%) sepia(99%) saturate(383%) hue-rotate(346deg) brightness(94%) contrast(95%);
+    color: #96aa9a;
+    filter: invert(25%) sepia(99%) saturate(383%) hue-rotate(346deg) brightness(94%) contrast(95%);
 }
 
 .enlacesFt:hover {
-  color: #000;
+    color: #000;
 }
 
 .btnCard:hover {
-  background-color: #ff9f6f;
+    background-color: #ff9f6f;
 }
 
 .enlacesIm:hover {
-  color: #ff9f6f;
+    color: #ff9f6f;
 }
 
 .btnSearch:hover,
 .btnForm:hover {
-  background-color: #000;
+    background-color: #000;
 }
 
 /*medias queries*/
 @media (max-width: 992px) {
-  label {
-    display: initial;
-    cursor: pointer;
-  }
-  .sidebar {
-    background-color: rgba(225, 225, 225, 0.15);
-    backdrop-filter: blur(100px);
-  }
-  .sidebargal {
-    background-color: #faf7ef;
-    backdrop-filter: blur(100px);
-  }
-  #menu {
-    display: none;
-  }
-  .arrowMain {
-    left: 45vw;
-  }
-  .parrafoCard {
-    font-size: 1rem;
-  }
-  .input {
-    width: 50%;
-  }
-  .imItem:nth-child(1) {
-    grid-row-start: span 1;
-    grid-column-start: span 2;
-  }
-  .imItem:nth-child(4) {
-    grid-column-start: span 2;
-  }
-  .imItem:nth-child(3) {
-    grid-column-start: span 1;
-    grid-row-start: span 1;
-  }
-  .tituloT {
-    width: 80vw;
-  }
+    label {
+        display: initial;
+        cursor: pointer;
+    }
+
+    .sidebar {
+        background-color: rgba(225, 225, 225, 0.15);
+        backdrop-filter: blur(100px);
+    }
+
+    .sidebargal {
+        background-color: #faf7ef;
+        backdrop-filter: blur(100px);
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .arrowMain {
+        left: 45vw;
+    }
+
+    .parrafoCard {
+        font-size: 1rem;
+    }
+
+    .input {
+        width: 50%;
+    }
+
+    .imItem:nth-child(1) {
+        grid-row-start: span 1;
+        grid-column-start: span 2;
+    }
+
+    .imItem:nth-child(4) {
+        grid-column-start: span 2;
+    }
+
+    .imItem:nth-child(3) {
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+
+    .tituloT {
+        width: 80vw;
+    }
 }
+
 @media (max-width: 1300px) {
-  .link a {
-    font-size: 1rem;
-  }
-  .gridImagenes {
-    grid-auto-rows: 300px;
-    gap: 10px;
-  }
-  .banner {
-    margin-bottom: 60%;
-  }
-  .tituloT {
-    width: 80vw;
-  }
-  .fa-brands {
-    left: 42vw;
-  }
-  .imput {
-    width: 50vw;
-  }
+    .link a {
+        font-size: 1rem;
+    }
+
+    .gridImagenes {
+        grid-auto-rows: 300px;
+        gap: 10px;
+    }
+
+    .banner {
+        margin-bottom: 60%;
+    }
+
+    .tituloT {
+        width: 80vw;
+    }
+
+    .fa-brands {
+        left: 42vw;
+    }
+
+    .imput {
+        width: 50vw;
+    }
 }
+
 @media (max-width: 1500px) {
-  .gridCard {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .gridCard {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+
 @media (max-width: 768px) {
-  h1,
-  .tituloInicio {
-    font-size: 1.5rem;
-  }
-  h2 {
-    font-size: 1.2rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-  .logo {
-    width: 150px;
-    height: 35px;
-  }
-  .link {
-    width: 40vw;
-    left: 20vw;
-    padding: 15px;
-  }
-  .gridImagenes {
-    gap: 10px;
-  }
-  footer {
-    padding-top: 5vh;
-  }
-  .navFt li {
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-  strong {
-    font-size: 1.5rem;
-  }
-  .banner {
-    margin-bottom: 80vh;
-  }
-  .gridCardPs {
-    grid-template-columns: repeat(1, 1fr);
-  }
+
+    h1,
+    .tituloInicio {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 150px;
+        height: 35px;
+    }
+
+    .link {
+        width: 40vw;
+        left: 20vw;
+        padding: 15px;
+    }
+
+    .gridImagenes {
+        gap: 10px;
+    }
+
+    footer {
+        padding-top: 5vh;
+    }
+
+    .navFt li {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    strong {
+        font-size: 1.5rem;
+    }
+
+    .banner {
+        margin-bottom: 80vh;
+    }
+
+    .gridCardPs {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
+
 @media (max-width: 600px) {
-  .gridCard {
-    grid-template-columns: repeat(1, 12fr);
-  }
-  .imItem:nth-child(1), .imItem:nth-child(2), .imItem:nth-child(3), .imItem:nth-child(4), .imItem:nth-child(5), .imItem:nth-child(6) {
-    grid-column-start: span 3;
-  }
-  footer {
-    height: 60vh;
-  }
-  ul li a {
-    padding: 5px;
-  }
-  .arrowMain {
-    top: 40%;
-  }
-  .tituloB {
-    padding-top: 100px;
-  }
-  .imput {
-    width: 70vw;
-  }
-  .link {
-    width: 50vw;
-    left: 15vw;
-    padding: 15px;
-  }
-  .tituloImagenes {
-    font-size: 1.5rem;
-  }
-  .mainImagenes {
-    padding-top: 10%;
-  }
+    .gridCard {
+        grid-template-columns: repeat(1, 12fr);
+    }
+
+    .imItem:nth-child(1),
+    .imItem:nth-child(2),
+    .imItem:nth-child(3),
+    .imItem:nth-child(4),
+    .imItem:nth-child(5),
+    .imItem:nth-child(6) {
+        grid-column-start: span 3;
+    }
+
+    footer {
+        height: 60vh;
+    }
+
+    ul li a {
+        padding: 5px;
+    }
+
+    .arrowMain {
+        top: 40%;
+    }
+
+    .tituloB {
+        padding-top: 100px;
+    }
+
+    .imput {
+        width: 70vw;
+    }
+
+    .link {
+        width: 50vw;
+        left: 15vw;
+        padding: 15px;
+    }
+
+    .tituloImagenes {
+        font-size: 1.5rem;
+    }
+
+    .mainImagenes {
+        padding-top: 10%;
+    }
 }
 
 /*# sourceMappingURL=estilo.css.map */
